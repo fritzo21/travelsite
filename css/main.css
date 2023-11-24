@@ -1,0 +1,31 @@
+body {
+    font-family: Helvetica, Arial, sans-serif; /* I added Arial to be able to see on Windows */
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+h1, h2{
+    font-size: 3.75rem;
+}
+header{
+    margin-top:0;
+    padding-top: 0;
+}
+
+.main-nav{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.main-nav__list{
+    
+    /* padding-right: 30px; */
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    justify-content: right space-evenly;
+}
+
