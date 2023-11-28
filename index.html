@@ -9,56 +9,99 @@
   <link rel="stylesheet" href=".css/global.css">
   <link rel="stylesheet" href=".css/destinations.css">
 </head>
+<title>Travel Site</title>
 <body>
   <header>
-    <nav class="main-nav">
-      <h3> <strong> Travel Site</strong></h3>
-      <ul class=main-nav__list>
-          <li class="main-nav__item">
-            <a href="" class="main-nav__link">Home</a>
+    <nav class="nav">
+      <div class="nav__logo">
+        <a href="./index.html" class="nav__logo--tag"><h3 class="nav__logo--brand">Travel Site</h3></a>
+      </div>
+      <ul class=main-nav-list>
+          <li class="main-nav-item">
+            <a href="../index.html" class="main-nav-link">Home</a>
           </li>
           <li class="main-nav__item">
-            <a href="" class="main-nav__link">Hawaii</a>
+            <a href="./pages/hawaii.html" class="main-nav-link">Hawaii</a>
           </li>
           <li class="main-nav__item">
-            <a href="" class="main-nav__link">Iceland</a>
+            <a href="./pages/iceland.html" class="main-nav-link">Iceland</a>
           </li>
           <li class="main-nav__item">
-            <a href="" class="main-nav__link">Greece</a>
+            <a href="./pages/greece.html" class="main-nav-link">Greece</a>
           </li>         
         </ul>
     </nav>
-    <main>
-      <section>
-        
-      </section>
-      <section class="recommendation" >
-        
-      </section>
-      <footer>
-        <div>
-          <div class="contacts">
-            <h3> Contact</h3>
-            <p> Email</p>
-            <p>infor@travelsite.com</p>
-          </div>
-          <div>
-            <div class="contacts">
-              <h3> Hours</h3>
-              <p> Monday - Friday</p>
-              <p>9:00 AM - 5:00 PM</p>
-            </div>
-            <div> 
-                <div class="social">
-                    <h3 class="social">Social</h3>
-                    <p1> 
-                        <img src="#" alt="Instagram" class="social-media">
-                        <img src="#" alt="Facebook" class="social-media">
-                        <img src="#" alt="Twitter"class="social-media">
-                    </p>
-                </div>
-        </div>
-      </footer>
-    </main>
   </header>
+    <main class="brand-info">
+      <ul class="brand-info message">
+        <li> 
+          <p class="slogan">Tavel Comes With Endless Discoveries</p>
+          <p class="slogan-sub">Don't let your dreams be just dream. Experience the world by booking a vacationwith us now.</p>
+          <p class="button"><button class="button__starter">Get Started</button></p>
+        </li>
+        <li class="brand-info">
+          <img class="logo" src="../assets/images/hero.png" alt=" logo">
+        </li>
+    </main>
+  <!-- Recommendation-->
+      <section class="recom-section" >
+        <p class="recom">
+          Recommendation
+        </p>
+        <ul class="recom-photos">
+          <li>
+            <img  class="site-photo" src="../assets/images/hawaii.jpg" alt="Hawaii">Hawaii</li>
+      
+            <li>
+              <img  class="site-photo" src="../assets/images/iceland.jpg" alt="Hawaii">Iceland</li>
+          </li>
+
+          <li>
+            <li>
+              <img  class="site-photo" src="../assets/images/greece.jpg" alt="Hawaii">Greece</li>
+        </ul>
+      </section>  
+    </header>   
+
+<!--  The footer with its items      -->
+
+  <footer class="footer">
+    <div class="footer-info">
+      <!-- Contact information -->
+      <div class="contacts">
+        <h3> Contact</h3>
+        <p class="footer-title"> Email</p>
+        <p>infor@travelsite.com</p>
+      </div>
+    </div>
+      <!-- Information for operational hours -->
+    <div class="footer-info">
+      <div class="contacts">
+        <h3> Hours</h3>
+        <ul class="opening-days">
+          <li class="footer-title">Monday - Friday</li>
+          <li class="footer-title">Saturday</li>
+          <li class="footer-title">Sunday</li>
+        </ul>
+        <ul class="opening-time">
+          <li>9:00 AM - 5:00 PM</li>
+          <li>10:00 AM - 4:00 PM</li>
+          <li>closed</li>
+        </ul>
+        </a>
+        </a>
+      </div>
+    </div>
+      <!-- Social Media Information -->
+      <div class="footer-info"> 
+        <div class="social">
+          <h3 class="social">Social</h3>
+          <p1> 
+            <a href="https://www.instagram.com/"><img src="../assets/icons/icon-instagram.png" alt="Instagram" class="social-media"></a>
+            <a href="https//www.twitter.com"><img src="../assets/icons/icon-facebook.png" alt="Facebook" class="social-media"></a>
+            <a href="https//www.facebook.com"><img src="../assets/icons/icon-twitter.png" alt="Twitter"class="social-media"></a>
+          </p> 
+    </div>
+  </footer> 
 </body>
+</html>

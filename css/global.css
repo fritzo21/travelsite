@@ -1,0 +1,13 @@
+.destination{
+    display: flex;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fix;
+    min-height: 550px;
+    width: 100;
+    justify-content: space-evenly;
+    margin-top: 70px;
+
+}
+

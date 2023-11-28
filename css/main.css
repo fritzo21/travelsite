@@ -1,7 +1,10 @@
 body {
-    font-family: Helvetica, Arial, sans-serif; /* I added Arial to be able to see on Windows */
-    margin: 0;
-    background-color: antiquewhite;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #FFFFFF;
+  color: #335576;
+  height: 100vh;
 }
 
 h1, h2{
@@ -12,20 +15,162 @@ header{
     padding-top: 0;
 }
 
-.main-nav{
-    background-color: white;
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-}
-
-.main-nav__list{
-    
-    /* padding-right: 30px; */
+.nav{
+     position: fixed;
+    overflow: hidden;
+    background-color: #ffffff;
     display: flex;
+    top: 0;
     width: 100%;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    justify-content: right space-evenly;
+    padding: 0 30px;
+    justify-content: space-between;
+    z-index: 1;
+  
 }
 
+.nav-logo {
+  font-weight: bold;
+  display: inline;
+}
+
+.nav-logo--tag {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__logo--brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nav__links--section {
+  display: flex;
+  list-style-type: none;
+  padding-right: 40px;
+}
+
+ .travel-site{
+  padding: 10px 50px 50px 100px;
+  border-top: 10px;
+}
+
+.main-nav-list{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+    margin:20px;
+    margin-top: -120px;
+    list-style: none;
+}
+.main-nav-item{
+}
+
+.main-nav-link{
+    margin: 15px;
+    text-decoration: none;
+  
+}
+a:hover {
+  border-bottom:2px solid #DB7A4E;
+  color: #DB7A4E; 
+  font-weight: bold;
+}
+.button{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: none;
+    
+}
+.button__starter{
+    color: white;
+    background-color: burlywood;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    font-size: 1em;
+
+}
+
+.brand-info{
+    width: 100%;
+    height: 550px;
+    background-color: #FEFAF5;
+    display:flex;
+    justify-content: space-evenly;
+    position: relative;
+    list-style: none;
+}
+.slogan{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.slogan-sub{
+  font-size: 1.2rem;
+}
+
+.logo{
+    height: 400px;
+    width:400px;
+    border: 0px;
+    box-shadow: none;
+    margin-top: 20px;
+    margin-left: 250px;
+}
+s
+  .recom-section{
+    width: 100%;
+    height: 800px;
+    border: 0;
+    background-color: white;
+  }
+
+  .recom{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  img{
+    height: 450px;
+    width: 250px;  
+    border-radius:8px ;
+    box-shadow: 2px 2px 5px;
+    margin-right: 20px;
+  }
+.recom-photos{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+
+  /* Footer section */
+.footer{
+    width:100%;
+    height: 150px;
+    margin-bottom: 0px;
+    background-color: #FEFAF5;
+    display: flex ;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .opening-time, .opening-days{
+    display: flex;
+    align-self: flex-start;
+    list-style: none;
+  }
+
+  .opening-time{
+    align-content: center;
+  }
+.footer-title{
+  color: #DB7A4E;
+}
+  .social-media{
+    height: 30px;
+    width: 30px;
+    margin-right: 60px;
+    box-shadow: none;
+  }
